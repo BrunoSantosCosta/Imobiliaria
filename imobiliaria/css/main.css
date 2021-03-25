@@ -189,7 +189,7 @@ main, .content{
     border: solid;
     color: black;
     padding: 15px 32px;
-    border-radius: 15px  100px;
+    border-radius: 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -284,7 +284,7 @@ main, .content{
     cursor: pointer;
 }
 
-.input-local{
+.local{
     font-family: 'Nunito', sans-serif;
     font-size: 18px;
     font-style: italic;
@@ -327,7 +327,28 @@ main, .content{
     height: 300px;
 }
 
-.campo-nome{
+.col-50 h2{
+    font-family: 'Lora', serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    text-shadow: 4px 3px 8px #00000060;
+    text-align: center;
+}
+
+.col-50 p{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
     font-family: 'Nunito', sans-serif;
     font-size: 18px;
     font-style: italic;
@@ -335,37 +356,38 @@ main, .content{
     border: solid;
     color: black;
     padding: 15px 32px;
-    border-radius: 15px  100px;
+    border-radius: 25px;
     text-align: center;
     text-decoration: none;
+    display: inline-block;
     cursor: pointer;
-}
-.campo-email{
-    margin: 22px;
-    font-family: 'Nunito', sans-serif;
-    font-size: 18px;
-    font-style: italic;
-    font-weight: 1000;
-    border: solid;
-    color: black;
-    padding: 15px 32px;
-    border-radius: 15px  100px;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-}
-.campo-msg{
-    font-family: 'Nunito', sans-serif;
-    font-size: 18px;
-    font-style: italic;
-    font-weight: 1000;
-    border: solid;
-    color: black;
-    padding: 15px 32px;
-    border-radius: 15px  100px;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-}
+  }
   
-  
+  input[type=submit] {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 1000;
+    border: solid;
+    color: black;
+    padding: 15px 32px;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+
+    .item-4 {
+        grid-column: span 3;
+    }
+    
+    /* Grid Item */
+    .item {
+        margin: 5px;
+        background: tomato;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    

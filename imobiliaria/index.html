@@ -9,14 +9,14 @@
         <title> Segundo Projeto </title>
     </head>
 <body>
-    <main class="col-100 menu-urls">
+    <main class="col-100 menu-urls" id="inicio-voltar">
         <div class="header-2">
             <div class="menu">  
-                <ul>
-                    <li><a href="">Inicio</a></li>
-                    <li><a href="">serviços</a></li>
-                    <li><a href="">Encontre</a></li>
-                    <li><a href="">Contato</a></li>
+                <ul class="nav">
+                    <li><a href="#inicio-voltar">Inicio</a></li>
+                    <li><a href="#serviços-voltar">serviços</a></li>
+                    <li><a href="#encontre-voltar">Encontre</a></li>
+                    <li><a href="#contato-voltar">Contato</a></li>
                 </ul>
             </div>
             <div class="busca">
@@ -36,7 +36,7 @@
                     </div>
                 </div>
         </div>
-        <div class="col-100 serviços">
+        <div class="col-100 serviços" id="serviços-voltar">
             <div class="titulo">
                 <h3>LOREM IPSUM ALIQUAM</h3>         
             </div>
@@ -62,7 +62,7 @@
                 <button class="botao"> Saiba Mais</button>
             </div>
         </div>
-        <div class="col-100 encontre">
+        <div class="col-100 encontre" id="encontre-voltar">
             <div class="encontre-imovel">
                 <h1>Encontre seu imóvel</h1>
                 <form class="formulario">
@@ -84,7 +84,7 @@
                     </select>
                 </div>
                 <div>
-                    <input class="input-local" type="text" name="nome" value="" placeholder="Digite o Bairro ou Cidade">
+                    <input class="local" type="text" placeholder="Digite o Bairro ou Cidade">
                 </div>
                 <div>
                     <button type="submit" class="button2">BUSCAR</button>
@@ -94,33 +94,48 @@
 
             </div>
         </div>
-        <div class="col-100 contato">
+        <div class="col-100 contato" id="contato-voltar">
             <div class="col-50"> 
-                    <h1>Contato</h1>
-                    <form>
-                        <div class="campo-nome">
-                            <input type="text" name="nome" value="" placeholder="Digite o Bairro ou Cidade">
-                        </div>
-                        <div class="campo-email">
-                            <input  type="text" name="nome" value="" placeholder="Digite o Bairro ou Cidade">
-                        </div>
-                        <div class="campo-msg">
-                            <input  type="text" name="nome" value="" placeholder="Digite o Bairro ou Cidade">
-                        </div>
-                        <button  type="submit" class="botton-form"> Enviar</button>
-                    </form>
-                   
-            </div>  
+                            
+                <h2>Contato</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
                 
+                <div>
+                  <form>
+                  <div>
+                      <label>Nome Completo</label>
+                    <div>
+                      <input type="text" placeholder="Seu nome completo">
+                    </div>
+                  </div>
+                  <div>
+                      <label">Motivo do Contato</label>
+                    <div>
+                      <select>
+                        <option value="imovel">Imovel</option>
+                        <option value="sujestão">Sujestão</option>
+                        <option value="reclamação">Reclamação</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div>
+                      <label>Texto</label>
+                    <div>
+                      <textarea id="subject" name="subject" placeholder="Conte mais..." style="height:200px"></textarea>
+                    </div>
+                  </div>
+                  <div >
+                    <input type="submit" value="Submit">
+                  </div>
+                  </form>
+                </div>
+            </div>         
                         <div class="col-50">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101408.21722940248!2d-122.15130702796334!3d37.41331444145766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fba02425dad8f%3A0x6c296c66619367e0!2sGoogleplex!5e0!3m2!1sen!2sbr!4v1616551588763!5m2!1sen!2sbr" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101408.21722940248!2d-122.15130702796334!3d37.41331444145766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fba02425dad8f%3A0x6c296c66619367e0!2sGoogleplex!5e0!3m2!1sen!2sbr!4v1616551588763!5m2!1sen!2sbr" width="800" height="700" style="border:0;" allowfullscreen="" loading="lazy">
                         </iframe>
-                         </div>
-
-                
-        </div>
-
-            
+                         </div>           
+    </div>   
     </main>
+    <script src="js/js.js"></script>
     </body>
 </html>
